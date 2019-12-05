@@ -1,0 +1,8 @@
+#Enter into ktutil tool with the command 'ktutil' and enter creds after each command
+ 
+ktutil
+addent -password -p <user>@<DOMAIN> -k 1 -e <encryption_type>
+addent -password -p <user>@<DOMAIN> -k 1 -e <encryption_type>
+addent -password -p <user>@<DOMAIN> -k 1 -e <encryption_type>
+wkt /home/ubuntu/Demisto/docker/krb5.keytab
+exit
