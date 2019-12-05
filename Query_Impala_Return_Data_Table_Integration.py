@@ -1,4 +1,4 @@
-"""About: This integration is for querying data from hadoop using impala
+"""About: This integration is for querying data in Hadoop from Demisto using Impala
    Author: sectechguy
    Creation Date: 11/5/2019
 """
