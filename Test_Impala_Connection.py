@@ -10,7 +10,7 @@ conn = connect(host=IMPALA_HOST, port=21050, auth_mechanism='GSSAPI', use_ssl=Tr
 cursor = conn.cursor()
 cursor.execute('SHOW TABLES')
 tables = as_pandas(cursor)
-cursor.execute('select namestr, destinationhostname from proxy_table limit 10')  //test connection
+cursor.execute('select http_method, destination_host_name from proxy_table limit 10')  //test connection
 
 df = as_pandas(cursor)
 print (df)
